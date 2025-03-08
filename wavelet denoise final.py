@@ -2,6 +2,7 @@ import numpy as np
 import pywt
 from astropy.io import fits
 import matplotlib.pyplot as plt
+
 from scipy.ndimage import median_filter
 
 def get_wavelet_choice():
